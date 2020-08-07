@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_payton.mk
+    $(LOCAL_DIR)/du_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_payton-user \
-    xtended_payton-userdebug \
-    xtended_payton-eng
+    du_payton-user \
+    du_payton-userdebug \
+    du_payton-eng
 
