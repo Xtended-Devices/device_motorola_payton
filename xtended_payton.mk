@@ -25,9 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER := Dhinesh
 
-#Built with GApps
-$(call inherit-product, vendor/gapps/basic/config.mk)
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
